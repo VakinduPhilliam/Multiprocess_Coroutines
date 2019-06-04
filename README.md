@@ -21,5 +21,6 @@ When a Future object is awaited it means that the coroutine will wait until the 
 Future objects in asyncio are needed to allow callback-based code to be used with async/await. 
 
 Normally there is no need to create Future objects at the application level code. 
+
 Future objects, sometimes exposed by libraries and some asyncio APIs, can be awaited. 
 Compiled and presented by Vakindu Philliam. 
